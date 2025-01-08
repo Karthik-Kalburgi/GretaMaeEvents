@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = () => {
   return (
-    <div className="grid gap-2 grid-cols-2">
+    <div className="grid gap-2 grid-cols-2 ">
         
         
         <div className="text-black font-bold text-5xl mt-36 mx-36">
