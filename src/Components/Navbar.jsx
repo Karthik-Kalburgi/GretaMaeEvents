@@ -15,7 +15,7 @@ const Navbar = () => {
         <h1 className="absolute top-0 mx-40 mt-2 items-center">Mae Events</h1>
       </div>
       <nav>
-        <ul className="flex justify-end gap-16 absolute top-0 right-1 mt-4 items-center font-bold  ">
+        <ul className=" justify-end gap-16 absolute top-0 right-1 mt-4 items-center font-bold md:flex hidden  ">
           <li className="hover:text-orange-600">Home</li>
           <li className="hover:text-orange-600">About Me</li>
           <li className="hover:text-orange-600">My Portfolio</li>
@@ -27,6 +27,10 @@ const Navbar = () => {
             <BsArrowUpRightCircleFill  className="ml-2 text-2xl text-orange-600  hover:text-yellow-400 " />
           </button>
         </ul>
+        <div className="md:hidden ">
+        <a className='text-4xl flex right-2 mt-2 items-center px-2 absolute top-2  ' href='#'>&#8801;</a>
+
+        </div>
       </nav>
     </div>
   );
